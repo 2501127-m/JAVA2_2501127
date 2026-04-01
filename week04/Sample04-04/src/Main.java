@@ -17,7 +17,7 @@ void main() throws IOException {
 
     ArrayList<Employee> employees = new ArrayList<>();
     employees.add(new Employee("홍길동", new Date(2003, 3, 25),
-            "1234", departments[1], grades[1]));
+             "1234", departments[1], grades[1]));
     employees.add(new Employee("이나라",new Date(2001, 12, 25), "1345",
             departments[3], grades[2]));
     employees.add(new Employee("나정신",new Date(1995, 5, 4), "2234"
